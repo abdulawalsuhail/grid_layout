@@ -1,0 +1,28 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.row>div {
+    flex: 1;
+}
+
+.vertical_collase img {
+    height: 50%;
+}
+
+.vertical_collase img {
+    height: calc((100%-8px)/2);
+}
+
+.square_collase {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
